@@ -202,7 +202,7 @@ footer .text-input{
 footer .send-button{
     margin-right: 20px;
     height: 36px;
-    border: 1px solid #ddd;
+    border: 1px;
     border-radius: 5px;
     background: #f5f5f5;
     font-size : 18px;

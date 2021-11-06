@@ -190,7 +190,7 @@ footer .icon:last-child {
 
 footer .text-input{
     flex: 1;
-    margin-left: 10px;
+    margin-left: 1px;
     margin-right: 10px;
     height: 36px;
     border: 1px solid #ddd;

@@ -37,7 +37,8 @@
     function sendMeg(){
       var message=document.getElementById("mes").value;
       var txt="<div class=\"message-item message-item--right\">  <img class=\"avatar\" src=\"./img/boy.png\" alt=\"头像\"><div class=\"message-bubble\">"+ message +"</div> </div>";  
-        
+        $(".message-list").append(txt);
+      socket.send(message);
     }
   </script>
 </head>

@@ -11,7 +11,7 @@
 <body>
 </body>
 - 👋 Hi, I’m @xzy
-- 👀 I’m interested in ...
+- 👀 I’m interested in League of Legends
 - 🌱 I’m currently learning python
 - 💞️ I’m looking to collaborate on python
 - 📫 How to reach me qq:362541726

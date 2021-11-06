@@ -8,9 +8,6 @@
 </head>
 <body>
 </body>
-1111
-<img src="https://i.niupic.com/images/2021/11/06/9FO4.jpg
-" />
 - 👋 Hi, I’m @xzy
 - 👀 I’m interested in ...
 - 🌱 I’m currently learning python

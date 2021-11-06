@@ -4,7 +4,7 @@
            body {
                   background-image: url('https://i.niupic.com/images/2021/11/06/9FO3.jpg');
                   background-repeat: no-repeat;
-                  background-size: 100%;
+                  background-size: cover;
                 }
           </style>
 </head>

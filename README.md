@@ -1,5 +1,5 @@
 
-<body background="https://i.niupic.com/images/2021/11/06/9FO4.jpg">
+<body background="https://i.niupic.com/images/2021/11/06/9FO3.jpg">
 </body>
 1111
 <img src="file:///C:\Users\36254\Desktop\blog1\source\images\text.jpg" />

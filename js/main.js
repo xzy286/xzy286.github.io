@@ -212,17 +212,13 @@ function moveLeft(){
 						//移动操作
 						showMoveAnimation(i,j,i,k);
 						nums[i][k]=nums[i][j];
-                        if(nums[i][k]==16){
-                            alert('16了，真厉害，喊爸爸继续');
-                        }
+                        
 						nums[i][j]=0;
 						break;
 					}else if(nums[i][k]==nums[i][j] && noBlockHorizontal(i,k,j,nums) && !hasConflicted[i][k]){
 						    showMoveAnimation(i,j,i,k);
                             nums[i][k]+=nums[i][j];
-                            if(nums[i][k]==16){
-                                alert('16了，真厉害，喊爸爸继续');
-                            }
+                            
 						    nums[i][j]=0;
 						    //统计分数
 						    score+=nums[i][k];
@@ -246,18 +242,14 @@ function moveRight(){
 						//移动操作
 						showMoveAnimation(i,j,i,k);
 						nums[i][k]=nums[i][j];
-                        if(nums[i][k]==16){
-                            alert('16了，真厉害，喊爸爸继续');
-                        }
+                       
 						nums[i][j]=0;
 						break;
 					}else if(nums[i][k]==nums[i][j] && noBlockHorizontal(i,j,k,nums) && !hasConflicted[i][k]){
 						    showMoveAnimation(i,j,i,k);
                             nums[i][k]+=nums[i][j];
 						    nums[i][j]=0;
-                            if(nums[i][k]==16){
-                                alert('16了，真厉害，喊爸爸继续');
-                            }
+                            
 						    //统计分数
 						    score+=nums[i][k];
 						    upDateScore(score);
@@ -281,17 +273,13 @@ function moveUp(){
 						showMoveAnimation(j,i,k,i);
 						nums[k][i]=nums[j][i];
 						nums[j][i]=0;
-                        if(nums[k][i]==16){
-                            alert('16了，真厉害，喊爸爸继续');
-                        }
+                       
 						break;
 					}else if(nums[k][i]==nums[j][i] && noBlockVertical(i,k,j,nums) && !hasConflicted[k][i]){
 						    showMoveAnimation(j,i,k,i);
                             nums[k][i]+=nums[j][i];
 						    nums[j][i]=0;
-                            if(nums[k][i]==16){
-                                alert('16了，真厉害，喊爸爸继续');
-                            }
+                            
 						    //统计分数
 						    score+=nums[k][i];
 						    upDateScore(score);
@@ -315,17 +303,13 @@ function moveDown(){
 						showMoveAnimation(j,i,k,i);
 						nums[k][i]=nums[j][i];
 						nums[j][i]=0;
-                        if(nums[k][i]==16){
-                            alert('16了，真厉害，喊爸爸继续');
-                        }
+                       
 						break;
 					}else if(nums[k][i]==nums[j][i] && noBlockHorizontal(i,j,k,nums) && !hasConflicted[k][i]){
 						    showMoveAnimation(j,i,k,i);
                             nums[k][i]+=nums[j][i];
 						    nums[j][i]=0;
-                            if(nums[k][i]==16){
-                                alert('16了，真厉害，喊爸爸继续');
-                            }
+                           
 						    //统计分数
 						    score+=nums[k][i];
 						    upDateScore(score);
